@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+:root {
+  --secondary-color: #044159;
+  --green-color: #0c9e13;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: var(--secondary-color) !important;
+}
+
+.landingpage2_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: var(--green-color);
+  color: white;
+}
+
+.landingpage2_2 {
+  padding: 20px;
+  background-color: rgb(245, 242, 242);
+  border-bottom: 1px solid lightgray;
+}
+
+.landingpage2_2_1 {
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.landingpage2_3 {
+  padding: 30px;
+}
+
+img {
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 350px) {
+  .mobile-hidden {
+    display: none !important;
+  }
+
+}
